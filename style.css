@@ -25,21 +25,30 @@ body {
 }
 
 article {
-  max-width: 45rem;
+  max-width: 43rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--white);
   border-radius: 12px;
 }
-
+/* 
 .card-img {
   width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+} */
+
+.img-container {
+  background-image: url("./image-product-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  overflow: hidden;
 }
 
 .text-container {
-  padding: 1.8rem 2.6rem;
+  padding: 1.8rem 2.2rem;
   display: flex;
   flex-direction: column;
   gap: 1.8rem;
